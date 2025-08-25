@@ -7,16 +7,6 @@
 #include <BluetoothA2DPSource.h>
 #include <config.h>
 
-#include <A2DPVolumeControl.h>
-#include <BluetoothA2DP.h>
-#include <BluetoothA2DPCommon.h>
-#include <BluetoothA2DPOutput.h>
-#include <BluetoothA2DPSink.h>
-#include <BluetoothA2DPSinkQueued.h>
-#include <BluetoothA2DPSource.h>
-#include <config.h>
-
-
 // Define pins for ultrasonic and buzzer
 int const trigPin = 8 ;
 int const echoPin = 7;
@@ -63,3 +53,4 @@ void loop()
     }
     delay(60);
 }
+
